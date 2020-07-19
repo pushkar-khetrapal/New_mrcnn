@@ -3,8 +3,8 @@ import torch
 import torch.nn.functional as F
 from torch import nn, Tensor
 
-from torchvision.ops import roi_align
-from torchvision.ops.boxes import box_area
+from New_mrcnn.ops import roi_align
+from New_mrcnn.ops.boxes import box_area
 
 from torch.jit.annotations import Optional, List, Dict, Tuple
 import torchvision

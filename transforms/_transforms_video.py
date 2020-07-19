@@ -3,7 +3,7 @@
 import numbers
 import random
 
-from torchvision.transforms import (
+from New_mrcnn.transforms import (
     RandomCrop,
     RandomResizedCrop,
 )
