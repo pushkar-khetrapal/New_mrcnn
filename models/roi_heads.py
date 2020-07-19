@@ -4,9 +4,9 @@ import torchvision
 import torch.nn.functional as F
 from torch import nn, Tensor
 
-from torchvision.ops import boxes as box_ops
+from New_mrcnn.ops import boxes as box_ops
 
-from torchvision.ops import roi_align
+from New_mrcnn.ops import roi_align
 
 from . import _utils as det_utils
 

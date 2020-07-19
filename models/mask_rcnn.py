@@ -4,8 +4,8 @@ import torch
 from torch import nn
 import torch.nn.functional as F
 
-from torchvision.ops import misc as misc_nn_ops
-from torchvision.ops import MultiScaleRoIAlign
+from New_mrcnn.ops import misc as misc_nn_ops
+from New_mrcnn.ops import MultiScaleRoIAlign
 
 from .faster_rcnn import FasterRCNN
 
